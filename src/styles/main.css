@@ -1,0 +1,101 @@
+button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 45px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #ff3f3f;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #b8b8b8;
+  color: #fff;
+}
+
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #dbdbdb;
+}
+header h1 {
+  color: #777;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.task-list {
+  margin-top: 50px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  margin-top: 20px;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 4px 4px 30px 4px rgba(0, 0, 0, 0.05);
+}
+
+.filter {
+  margin-top: 30px;
+}
+.filter button {
+  margin-right: 10px;
+  padding: 3px 20px;
+  height: 30px;
+  border-radius: 30px;
+}
+.filter .active {
+  background: #cccccc;
+}
+
+.taskform-container {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.taskform-container .task-input {
+  height: 45px;
+  width: 400px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
